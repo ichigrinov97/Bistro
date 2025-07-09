@@ -1,0 +1,113 @@
+.menuBlock {
+    max-width: 1296px;
+    margin: auto;
+    padding-bottom: 148px;
+
+    h1 {
+        font-family: Playfair Display;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 96px;
+        text-align: center;
+        color: #2C2F24;
+        padding-top: 97px;
+        padding-bottom: 20px;
+    }
+
+    .maintext {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #495460;
+        padding-bottom: 33px;
+    }
+
+    .buttonsBlock {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding-bottom: 80px;
+
+
+        .but {
+            display: flex;
+            align-items: center;
+            border-radius: 100px;
+            gap: 8px;
+            padding: 8px 16px 8px 8px;
+            border: 1px solid #403F3D;
+            background: #FFFFFF;
+            color: #403F3D;
+
+
+
+            &:hover {
+                background: #403F3D;
+                color: #FFFFFF;
+
+                div {
+                    background-color: #FFFFFF;
+                }
+            }
+
+            div {
+                width: 30px;
+                height: 30px;
+                border-radius: 100px;
+                background: #403F3D;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .cardsEat{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        border: 2.5px solid #DBDFD0;
+        width: 307.5px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding-bottom: 30px;
+
+        h2 {
+            font-family: DM Sans;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: -3%;
+            color: #AD343E;
+        }
+
+        .titleCard {
+            font-family: DM Sans;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            color: #2C2F24;
+        }
+
+        .textCard {
+            font-family: DM Sans;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #414536;
+            max-width: 230px;
+        }
+    }
+}

@@ -1,0 +1,189 @@
+.background {
+    background: #FFFFFF;
+    padding: 99px 0 137px 0;
+
+
+    .countainer {
+        max-width: 863px;
+        margin: auto;
+
+        .up {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 21px;
+
+
+            .rightBlock {
+                h1 {
+                    font-family: Playfair Display;
+                    font-weight: 600;
+                    font-style: SemiBold;
+                    font-size: 55px;
+                    line-height: 125%;
+                    color: #2C2F24;
+                    padding-bottom: 12px;
+                }
+
+                .titletext {
+                    font-family: DM Sans;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #403F3D;
+                    max-width: 438px;
+                    padding-bottom: 20px;
+                }
+
+                .size {
+                    .sizeText {
+                        font-family: DM Sans;
+                        font-weight: 400;
+                        font-style: Regular;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #2C2F24;
+                        padding-bottom: 8px;
+                    }
+
+                    .sizeButtons {
+                        display: flex;
+                        gap: 8px;
+
+
+
+                        .sizeBut {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            opacity: 1;
+                            gap: 15px;
+                            border-radius: 100px;
+                            padding-top: 8px;
+                            padding-right: 16px;
+                            padding-bottom: 8px;
+                            padding-left: 8px;
+                            border: 1px solid #403F3D;
+
+
+                            .circle {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 30px;
+                                height: 30px;
+                                opacity: 1;
+                                border-radius: 100px;
+                                color: #FFFFFF;
+                                background: #403F3D;
+                                font-family: DM Sans;
+                                font-weight: 700;
+                                font-style: Bold;
+                                font-size: 16px;
+                                line-height: 150%;
+
+                            }
+
+                            .textB {
+                                font-family: DM Sans;
+                                font-weight: 700;
+                                font-style: Bold;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #403F3D;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .down {
+            .price {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 20px;
+
+                .total {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 24px;
+                    line-height: 125%;
+                    color: #403F3D;
+                }
+            }
+
+            .underline {
+                border-top: 1px solid #403F3D
+            }
+
+            .text {
+                display: flex;
+                gap: 8px;
+                padding-top: 12px;
+                padding-bottom: 46px;
+                justify-content: center;
+                align-items: center;
+
+                .i {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 10px;
+                    line-height: 140%;
+                    color: #403F3D;
+                    border: 1px solid #403F3D;
+                    border-radius: 100;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        padding: 0.01px 6px 0.01px 6px;
+
+                    }
+
+                }
+
+                .longtext {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 10px;
+                    line-height: 140%;
+                    color: #403F3D;
+
+                }
+
+
+
+            }
+
+            .button {
+                opacity: 1;
+                border-radius: 100px;
+                padding: 10px 380px 10px 380px;
+                border-width: 1px;
+                border: 1px solid #403F3D;
+                
+
+
+
+                h1 {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #403F3D;
+                    width: 102px;
+
+                }
+            }
+        }
+
+
+    }
+}
